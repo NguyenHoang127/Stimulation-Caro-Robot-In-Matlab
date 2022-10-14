@@ -36,7 +36,7 @@ for t=0:0.1:2*pi
             line([u*n+l01,u*n+l01],[300-l02,0-l02]);
         end
     end
-    plot3(Px,Py,0,'.')
+    plot3(X,Y,0,'.')
     hold on
     grid on
     pause(0.2)
